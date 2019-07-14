@@ -1,0 +1,8 @@
+name = "TestRegistry"
+uuid = "86ba33be-7049-4085-81d3-e6c7c1095232"
+repo = "https://github.com/DilumAluthge/TestRegistry.git"
+description = "This is a registry for testing purposes only."
+
+[packages]
+ac29586c-a683-11e9-2825-255c508e5462 = { name = "Foo", path = "F/Foo" }
+f73876a8-a683-11e9-3353-27bcedd920b0 = { name = "Bar", path = "B/Bar" }
