@@ -38,3 +38,14 @@ $ git cat-file -p a8fc0a42d5b3165ef81bb030a40edc954356a29b
 ```
 
 So the `git-tree-sha1` for `Bar.jl` is `6f4acda473ceb8759c52f8931e7a8db81d727475`.
+
+### Simplified:
+
+```bash
+$ git clone https://github.com/DilumAluthge/FooBar.git
+$ cd FooBar
+$ git rev-parse master:myfolder/Foo
+4cc2b397c52bee060648fade86ea638c53c6fe22
+$ git rev-parse master:otherfolder/subfolder/Bar
+6f4acda473ceb8759c52f8931e7a8db81d727475
+```
